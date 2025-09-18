@@ -10,6 +10,7 @@ func _init():
 	file.close()
 
 	var node = Node.new()
+	node.name = "node"
 	node.set_script(load("res://scripts/main.gd"))
 
 	var packed_scene = PackedScene.new()
