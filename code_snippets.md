@@ -3,7 +3,7 @@
 sudo find /private/var/folders/ -type f -iname "InstallAssistant.pkg.partial" 2>/dev/null
 
 diskutil list
-diskutil eraseDisk HFS+ "volume" GPT /dev/diskX
+diskutil eraseDisk JHFS+ "volume" GPT /dev/diskX
 
 echo "PS1='%d '" > ~/.zshrc
 
